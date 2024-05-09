@@ -1,0 +1,172 @@
+2024-05-07 19:44:09 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : The current directory for data Ingetion is C:\Users\abhishdutta\Desktop\PRD Projects\IBM WatsonX\Heart Disease Classification
+2024-05-07 19:44:09 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : Initiating data ingetion process...
+2024-05-07 19:44:09 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : Data read
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : Raw data saved at C:\Users\abhishdutta\Desktop\PRD Projects\IBM WatsonX\Heart Disease Classification\artifacts\raw.csv
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : Data ingetion process completed...
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : Train data shape: (1071, 12)
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : Test data shape: (119, 12)
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : Train data saved at C:\Users\abhishdutta\Desktop\PRD Projects\IBM WatsonX\Heart Disease Classification\artifacts\train.csv
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : Test data saved at C:\Users\abhishdutta\Desktop\PRD Projects\IBM WatsonX\Heart Disease Classification\artifacts\test.csv
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_ingetion - INFO : Data Ingetion process completed...
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Initiating data transformation process...
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Data loaded successfully
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Number columns identified successfully
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Outliers removed!!!
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Outliers removed!!!
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Outliers removed!!!
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Categorical columns  and numerical columns divided successfully
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Empty values filled with mode successfully
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Empty values filled with mode successfully
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Categories created successfully!!!
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Numerical Column ['age', 'sex', 'chest pain type', 'resting bp s', 'cholesterol', 'fasting blood sugar', 'resting ecg', 'max heart rate', 'exercise angina', 'oldpeak', 'ST slope']
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Pipeline methods creation ends!!!
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Input and target feature segregated successfully!!!
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : [[ 1.24044487 -1.55456318  0.88758372 ...  1.45664938 -0.83089609
+   1.07605517]
+ [ 0.6675449   0.64326752  0.88758372 ...  1.45664938  2.64215167
+   1.07605517]
+ [-1.28031498  0.64326752 -1.56023685 ... -0.686507   -0.83089609
+  -0.92932038]
+ ...
+ [ 0.6675449   0.64326752  0.88758372 ... -0.686507   -0.83089609
+  -0.92932038]
+ [ 0.32380492  0.64326752 -1.56023685 ... -0.686507   -0.83089609
+  -0.92932038]
+ [-1.16573499  0.64326752 -1.56023685 ... -0.686507   -0.83089609
+  -0.92932038]]
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Preprocessing done successfully!!!
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : Data transformation done successfully!!!
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - data_transformation - INFO : ordinal_columns_mapping.json created successfully!!!
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object saved successfully
+2024-05-07 19:44:10 - HEART_DISEASE_DETECTION_LOG - model_trainer - INFO : Initiating model training process...
+2024-05-07 19:44:12 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:12 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The confusion matrix and classification report for the model: SVC is:
+2024-05-07 19:44:12 - HEART_DISEASE_DETECTION_LOG - utils - INFO :               precision    recall  f1-score   support
+
+         0.0       0.87      0.89      0.88        38
+         1.0       0.93      0.91      0.92        55
+
+    accuracy                           0.90        93
+   macro avg       0.90      0.90      0.90        93
+weighted avg       0.90      0.90      0.90        93
+
+2024-05-07 19:44:12 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:12 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:12 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The best parameters for the modelSVC are {'kernel': 'rbf', 'gamma': 'scale', 'degree': 4, 'C': 100}
+2024-05-07 19:44:12 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:12 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Model: SVC, Accuracy score: 0.9032258064516129
+2024-05-07 19:44:13 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:13 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The confusion matrix and classification report for the model: DecisionTree is:
+2024-05-07 19:44:13 - HEART_DISEASE_DETECTION_LOG - utils - INFO :               precision    recall  f1-score   support
+
+         0.0       0.73      0.95      0.83        38
+         1.0       0.95      0.76      0.85        55
+
+    accuracy                           0.84        93
+   macro avg       0.84      0.86      0.84        93
+weighted avg       0.86      0.84      0.84        93
+
+2024-05-07 19:44:13 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:13 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:13 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The best parameters for the modelDecisionTree are {'min_samples_split': 7, 'min_samples_leaf': 2, 'max_depth': 8}
+2024-05-07 19:44:13 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:13 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Model: DecisionTree, Accuracy score: 0.8387096774193549
+2024-05-07 19:44:29 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:29 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The confusion matrix and classification report for the model: RandomForest is:
+2024-05-07 19:44:29 - HEART_DISEASE_DETECTION_LOG - utils - INFO :               precision    recall  f1-score   support
+
+         0.0       0.88      0.95      0.91        38
+         1.0       0.96      0.91      0.93        55
+
+    accuracy                           0.92        93
+   macro avg       0.92      0.93      0.92        93
+weighted avg       0.93      0.92      0.93        93
+
+2024-05-07 19:44:29 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:29 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:29 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The best parameters for the modelRandomForest are {'n_estimators': 50, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_depth': 11}
+2024-05-07 19:44:29 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:29 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Model: RandomForest, Accuracy score: 0.9247311827956989
+2024-05-07 19:44:59 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:44:59 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The confusion matrix and classification report for the model: GradientBoostingClassification is:
+2024-05-07 19:45:00 - HEART_DISEASE_DETECTION_LOG - utils - INFO :               precision    recall  f1-score   support
+
+         0.0       0.86      0.97      0.91        38
+         1.0       0.98      0.89      0.93        55
+
+    accuracy                           0.92        93
+   macro avg       0.92      0.93      0.92        93
+weighted avg       0.93      0.92      0.93        93
+
+2024-05-07 19:45:00 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:45:00 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:45:00 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The best parameters for the modelGradientBoostingClassification are {'n_estimators': 100, 'min_samples_split': 9, 'min_samples_leaf': 9, 'max_depth': 10, 'learning_rate': 0.1}
+2024-05-07 19:45:00 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:45:00 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Model: GradientBoostingClassification, Accuracy score: 0.9247311827956989
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The confusion matrix and classification report for the model: BaggingClassification is:
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO :               precision    recall  f1-score   support
+
+         0.0       0.90      0.97      0.94        38
+         1.0       0.98      0.93      0.95        55
+
+    accuracy                           0.95        93
+   macro avg       0.94      0.95      0.94        93
+weighted avg       0.95      0.95      0.95        93
+
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO : The best parameters for the modelBaggingClassification are {'n_estimators': 100, 'max_samples': 1.0, 'max_features': 0.7, 'bootstrap_features': False, 'bootstrap': True}
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO : 
+====================================================================================
+
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Model: BaggingClassification, Accuracy score: 0.946236559139785
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Model evaluation complete
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - model_trainer - INFO : 
+====================================================================================
+
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - model_trainer - INFO : Model Report : {'SVC': {'score': 0.9032258064516129, 'best_params': {'kernel': 'rbf', 'gamma': 'scale', 'degree': 4, 'C': 100}}, 'DecisionTree': {'score': 0.8387096774193549, 'best_params': {'min_samples_split': 7, 'min_samples_leaf': 2, 'max_depth': 8}}, 'RandomForest': {'score': 0.9247311827956989, 'best_params': {'n_estimators': 50, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_depth': 11}}, 'GradientBoostingClassification': {'score': 0.9247311827956989, 'best_params': {'n_estimators': 100, 'min_samples_split': 9, 'min_samples_leaf': 9, 'max_depth': 10, 'learning_rate': 0.1}}, 'BaggingClassification': {'score': 0.946236559139785, 'best_params': {'n_estimators': 100, 'max_samples': 1.0, 'max_features': 0.7, 'bootstrap_features': False, 'bootstrap': True}}}
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - model_trainer - INFO : 
+====================================================================================
+
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object saved successfully
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - model_trainer - INFO : The model is saved successfully to C:\Users\abhishdutta\Desktop\PRD Projects\IBM WatsonX\Heart Disease Classification\artifacts\model.pkl
+2024-05-07 19:45:15 - HEART_DISEASE_DETECTION_LOG - <ipython-input-1-67f7714d85c8> - INFO : ### Model Training is done and both model and preprocessing file saved to artifacts directory###

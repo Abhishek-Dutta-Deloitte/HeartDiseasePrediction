@@ -1,0 +1,50 @@
+2024-05-09 11:34:36 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 11:34:36 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 11:34:38 - HEART_DISEASE_DETECTION_LOG - app - INFO :    age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  0.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 11:34:51 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 11:34:51 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 11:34:51 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 11:34:51 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 11:34:51 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 11:34:51 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 11:34:51 - HEART_DISEASE_DETECTION_LOG - app - INFO : transformation done for new data!!!
+2024-05-09 11:34:51 - HEART_DISEASE_DETECTION_LOG - app - INFO : prediction done!!!
+2024-05-09 13:25:58 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 13:25:58 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 13:25:58 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 14:15:36 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:15:36 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:15:36 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 14:18:53 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:18:53 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:18:53 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 14:19:34 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:19:34 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:19:34 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 14:19:36 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:19:36 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:19:36 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 14:20:43 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:20:43 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:20:43 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 14:21:48 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:21:48 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:21:48 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 14:33:48 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:33:48 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 14:33:48 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1
+2024-05-09 16:23:47 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 16:23:47 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object loaded successfully
+2024-05-09 16:23:48 - HEART_DISEASE_DETECTION_LOG - app - INFO :     age  sex  chest pain type  resting bp s  cholesterol  fasting blood sugar  resting ecg  max heart rate  exercise angina  oldpeak  ST slope
+0  30.0    0                1           0.0          0.0                    1            0             0.0                0      0.0         1

@@ -1,0 +1,29 @@
+2024-05-07 17:12:38 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Initiating data transformation process...
+2024-05-07 17:12:38 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Data loaded successfully
+2024-05-07 17:12:38 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Number columns identified successfully
+2024-05-07 17:12:38 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Outliers removed!!!
+2024-05-07 17:12:38 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Outliers removed!!!
+2024-05-07 17:12:38 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Outliers removed!!!
+2024-05-07 17:12:38 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Categorical columns  and numerical columns divided successfully
+2024-05-07 17:12:38 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Empty values filled with mode successfully
+2024-05-07 17:12:38 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Empty values filled with mode successfully
+2024-05-07 17:12:39 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Categories created successfully!!!
+2024-05-07 17:12:39 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Pipeline methods creation ends!!!
+2024-05-07 17:12:39 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Input and target feature segregated successfully!!!
+2024-05-07 17:12:39 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : [[ 0.45007035 -1.52819039  0.90448464 ...  1.45798295  1.37268765
+   1.07403133]
+ [ 0.45007035  0.65436873 -1.52673452 ... -0.68587908 -0.83128929
+  -0.93107153]
+ [-1.2893678  -1.52819039 -1.52673452 ... -0.68587908  0.79269372
+  -0.93107153]
+ ...
+ [ 0.68199543  0.65436873  0.90448464 ... -0.68587908 -0.83128929
+  -0.93107153]
+ [ 0.3341078   0.65436873 -1.52673452 ... -0.68587908 -0.83128929
+  -0.93107153]
+ [-1.17340526  0.65436873 -1.52673452 ... -0.68587908 -0.83128929
+  -0.93107153]]
+2024-05-07 17:12:39 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Preprocessing done successfully!!!
+2024-05-07 17:12:39 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : Data transformation done successfully!!!
+2024-05-07 17:12:39 - HEART_DISEASE_DETECTION_LOG - <ipython-input-3-5a74583523dd> - INFO : ordinal_columns_mapping.json created successfully!!!
+2024-05-07 17:12:39 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object saved successfully

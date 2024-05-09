@@ -1,0 +1,34 @@
+2024-05-07 18:27:31 - HEART_DISEASE_DETECTION_LOG - <ipython-input-1-dd41247e3541> - INFO : Initiating data transformation process...
+2024-05-07 18:27:31 - HEART_DISEASE_DETECTION_LOG - <ipython-input-1-dd41247e3541> - INFO : Data loaded successfully
+2024-05-07 18:27:31 - HEART_DISEASE_DETECTION_LOG - <ipython-input-1-dd41247e3541> - INFO : Number columns identified successfully
+2024-05-07 18:27:31 - HEART_DISEASE_DETECTION_LOG - <ipython-input-1-dd41247e3541> - INFO : Outliers removed!!!
+2024-05-07 18:27:31 - HEART_DISEASE_DETECTION_LOG - <ipython-input-1-dd41247e3541> - INFO : Outliers removed!!!
+2024-05-07 18:27:31 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Outliers removed!!!
+2024-05-07 18:27:31 - HEART_DISEASE_DETECTION_LOG - <ipython-input-1-dd41247e3541> - INFO : Categorical columns  and numerical columns divided successfully
+2024-05-07 18:27:31 - HEART_DISEASE_DETECTION_LOG - <ipython-input-1-dd41247e3541> - ERROR : Error occured while initiating the data transformation process: name 'categories' is not defined
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Initiating data transformation process...
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Data loaded successfully
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Number columns identified successfully
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Outliers removed!!!
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Outliers removed!!!
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Outliers removed!!!
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Categorical columns  and numerical columns divided successfully
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Pipeline methods creation ends!!!
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Input and target feature segregated successfully!!!
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : [[ 0.45007035 -1.52819039  0.90448464 ...  1.45798295  1.37268765
+   1.07403133]
+ [ 0.45007035  0.65436873 -1.52673452 ... -0.68587908 -0.83128929
+  -0.93107153]
+ [-1.2893678  -1.52819039 -1.52673452 ... -0.68587908  0.79269372
+  -0.93107153]
+ ...
+ [ 0.68199543  0.65436873  0.90448464 ... -0.68587908 -0.83128929
+  -0.93107153]
+ [ 0.3341078   0.65436873 -1.52673452 ... -0.68587908 -0.83128929
+  -0.93107153]
+ [-1.17340526  0.65436873 -1.52673452 ... -0.68587908 -0.83128929
+  -0.93107153]]
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Preprocessing done successfully!!!
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : Data transformation done successfully!!!
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - <ipython-input-2-b3814c21b1f1> - INFO : ordinal_columns_mapping.json created successfully!!!
+2024-05-07 18:28:06 - HEART_DISEASE_DETECTION_LOG - utils - INFO : Object saved successfully
